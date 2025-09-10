@@ -1,7 +1,7 @@
 import JobList from "./components/JobList";
 import JobForm from "./components/JobForm";
 import Hero from "./components/Hero";
-
+import { useState } from "react";
 function App() {
   const [search, setSearch] = useState("");
   const [refresh, setRefresh] = useState(false);
