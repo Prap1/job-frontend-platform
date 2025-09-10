@@ -54,6 +54,7 @@ const JobList = ({ search, refresh }) => {
           </button>
         </div>
       )}
+      
     </div>
   );
 };
