@@ -22,12 +22,14 @@ const JobFormModal = ({ onJobAdded }) => {
   return (
     <div>
       {/* Button to open modal */}
+      
       <button
-        onClick={() => setIsOpen(true)}
-        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-      >
-        Add Job
-      </button>
+  onClick={() => setIsOpen(true)}
+  className="px-4 py-2 bg-blue-600 text-green-600 rounded-lg border border-green-600 hover:bg-blue-700"
+>
+  Add Job
+</button>
+
 
       {/* Modal */}
       {isOpen && (

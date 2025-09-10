@@ -30,7 +30,8 @@ const JobList = ({ search, refresh }) => {
   };
 
   return (
-    <div className="mt-6">
+    <div className="mt-6 ">
+      <div>Jobs</div>
       {jobs.length === 0 && (
         <p className="text-gray-500 text-center">No jobs found</p>
       )}
